@@ -65,13 +65,27 @@ body{
           outline: none;
      }
      .btn{
-          padding: 5px;
+          padding: 5px 10px;
           cursor: pointer;
           color: #666;
           border: none;
           margin-top: 8px;
+                  
+          justify-content: center;
      }
      .btn:hover{
-          border: 1px solid #aaa;
+          border: 0.5px solid #aaa;
      }
+     #links {
+          margin-top: 20px;
+          text-align: center;
+      }
+      #links a {
+          margin-right: 5px;
+          text-decoration: none;
+          color: blue;
+      }
+      #links a:hover {
+          text-decoration: underline;
+      }
      
